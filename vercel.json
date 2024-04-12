@@ -9,7 +9,10 @@
   "routes": [
     {
       "src": "/api/v1/(.*)",
-      "dest": "/server.js"
+      "dest": "./server.js"
     }
-  ]
+  ],
+  "env": {
+    "MONGODB_URI": "MONGO_URI = mongodb+srv://hansenjonatann:hansenjonatann@blogpost.pkexto8.mongodb.net/blog?retryWrites=true&w=majority"
+  }
 }
